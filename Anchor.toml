@@ -1,0 +1,17 @@
+[programs.localnet]
+p1 = "7g7gd8n4gwnMg18KfJmB26ub7PXmWYQ8pUvtBzNgawV7"
+p2 = "3GbLiBe9A21Q23iauMcnr9mnHVf3zuhC41oCAnHqZdFh"
+p3 = "BaDqZmWdmvFRHLTQNYnnsBZrVJEY2L3nmxKqkGAfVVhD"
+p4 = "ChLTypEikpHPuFv1nPmgdPDifcp7JiuUxghUaz4t9oVx"
+p5 = "Eb5qgD2JomsCytRSjEQyEyhm8ZRsQ6fXMeneBpsPTkpz"
+p6 = "8X6NeTnsGingsUDEfYknbttaecHRpVNQRaj3Yq6WGRoC"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
